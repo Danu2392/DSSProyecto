@@ -27,6 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container">
         <h2>Registrar Nuevo Usuario</h2>
+        <!-- Formulario para registrar al usuario, usa el método POST para enviar los datos -->
         <form method="post" action="">
             <label for="reg_username">Nombre de Usuario:</label>
             <input type="text" id="reg_username" name="reg_username" required>
@@ -39,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <br>
             <input type="submit" value="Registrar">
         </form>
+        <!-- Enlace para regresar a la página principal -->
         <p><a href="index.php">Volver</a></p>
     </div>
 </body>
